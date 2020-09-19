@@ -6,6 +6,7 @@ class Person
 
   def initialize(hash)
     @hash = {}
+    @hash.send("#{method_name}=", value)
   end
   #your code here
 end
