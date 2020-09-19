@@ -6,5 +6,6 @@ class Person
 
   def initialize(hash)
     @hash = {}
+  end
   #your code here
 end
